@@ -1,0 +1,45 @@
+insert into categorias_servicos (nome_servico) values ('Eletricista'),
+('Encanador'),
+('Marceneiro'),
+('Pintor'),
+('Chaveiro'),
+('Segurança'),
+('Confeiteiro'),
+('Motorista'),
+('Animador de festa'),
+('Cozinheiro'),
+('Coach'),
+('Babá'),
+('Cuidador de pets'),
+('Cuidador de pessoas idosas'),
+('Professor Particular'),
+('Programador'),
+('Fotógrafo'),
+('Músico'),
+('Sapateiro'),
+('Manicure'),
+('Cabeleireiro'),
+('Designer gráfico'),
+('Costureira'),
+('Maquiadora'),
+('Massagista'),
+('Assessor de eventos');
+
+insert into prestadores (cnpj, cpf, email, nome_usuario, senha, telefone) values
+(12356, 12356, 'prestador1@gmail.com', 'Nelson Santana', 123, 11987125120),
+(12357, 12357, 'prestador2@gmail.com', 'Felipe Miranda', 123, 11987125120),
+(12358, 12358, 'prestador3@gmail.com', 'Maria Gadu', 123, 11987125120),
+(12359, 12359, 'prestador4@gmail.com', 'Mariana Pompeo', 123, 11987125120),
+(12350, 12350, 'prestador5@gmail.com', 'Alice Braga', 123, 11987125120),
+(12351, 12351, 'prestador6@gmail.com', 'Felipe Isaias', 123, 11987125120);
+
+insert into SERVICOS  (DESCRICAO , TITULO , FK_CATEGORIA_SERVICO,  FK_PRESTADOR ) values
+('Formato computadores...' , 'Computadores', 14, 1 ),
+('Ajudo-te a arrumar chuveiros e ventiladores','Eletricista Caseiro', 1, 2 ),
+('Ajudas com partes elétricas de sua casa','Marido de Aluguel!', 1, 3),
+('Sou muito bom em ajudar!','Cuido de Elétrica', 1, 4),
+('Faço bolos para festas','Confeiteiro caseiro', 7, 5),
+('Deliciosos bolos de potes para sua festa!','Bolos de Pote', 7, 6),
+('isso isso isso isso isso isso descrição.','Exemplo', 5, 4),
+('aaaaaaaaaa ','Exemplo', 5, 5)
+
